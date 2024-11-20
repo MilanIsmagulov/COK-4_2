@@ -1,0 +1,75 @@
+/* ВАЖНО - В данном файле все классы должны быть с припиской _custom */
+/* 
+#content > div.only_img > img{
+    border-radius: 35px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+} */
+
+.two_img_custom {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+@media (max-width: 720px){
+    .two_img_custom{
+        flex-direction: column;
+    }
+    
+    .two_img_custom > div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .formula_custom img {
+        width: 95%;
+    }
+}
+
+#content > div.text_with_img > div {
+    float: left;
+    margin-top: 0px;
+}
+
+
+#content > div.text_with_img > div > img {
+    margin: 25px;
+    margin-top: 0px;
+}
+
+.katex-block{
+    height: 100% !important;
+}
+.center_center_custom{
+    align-items: center !important;
+}
+
+
+#content > div.subtitle_wrapper {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.two_img_custom img {
+    width: 80%;
+}
+
+.ol_custom {
+    margin-left: 25px;
+    list-style-position: inside;
+} 
+
+.table_custom {
+    border-collapse: collapse;
+    width: 80%;
+}
+.table_custom td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}

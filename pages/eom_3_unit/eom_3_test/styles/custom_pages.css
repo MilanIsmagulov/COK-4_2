@@ -1,0 +1,9 @@
+/* ВАЖНО - В данном файле все классы должны быть с припиской _custom */
+.p_custom {
+    font-size: 1rem;
+}
+
+#content > div.main_wrapper > img {
+    min-width: 200px;
+    width: 20%;
+}
